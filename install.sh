@@ -66,7 +66,7 @@ EOF
 $(mkdir -p /etc/sysconfig/imunify360/generic)
 cat > /etc/sysconfig/imunify360/generic/modsec.conf << EOF
 modsecurity on;
-modsecurity_rules_file /usr/local/ngin/modsec.conf;
+modsecurity_rules_file /usr/local/nginx/modsec.conf;
 modsecurity_rules_file /etc/sysconfig/imunify360/generic/modsec.conf;
 EOF
 
