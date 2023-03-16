@@ -71,7 +71,7 @@ modsecurity_rules_file /etc/sysconfig/imunify360/generic/modsec.conf;
 EOF
 
 echo " "
-echo -e $GREEN"All Configguration Files Created. Now We Will Process The Installation"$RESET
+echo -e $GREEN"All Configuration Files Created. Now We Will Process The Installation"$RESET
 echo " "
 echo -e $GREEN"Downloading Imunify360 Installer"$RESET
 echo " "
